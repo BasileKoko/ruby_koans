@@ -11,12 +11,12 @@ class AboutClassMethods < Neo::Koan
   end
 
   def test_classes_are_classes
-    #class Dog is a Class
+    #class Dog is a Class #
     assert_equal true, Dog.is_a?(Class)
   end
 
   def test_classes_are_objects_too
-    #class Dog is an Object
+    #class Dog is an Object #
     assert_equal true, Dog.is_a?(Object)
   end
 
