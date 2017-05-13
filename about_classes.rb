@@ -9,7 +9,7 @@ class AboutClasses < Neo::Koan
     assert_equal Dog, fido.class
   end
 
-  # ------------------------------------------------------------------
+  #-----------------------------------------------------------------
 
   class Dog2
     def set_name(a_name)
